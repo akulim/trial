@@ -47,6 +47,7 @@ main {
 	padding-left:80px;
 	border-bottom: 1px solid #fff;
 }
+
 .nav-links > ul{
     display: flex;
     justify-content: center;
@@ -94,7 +95,7 @@ main {
 
 .dropdown-link > a{
     display: flex;
-    background-color: #fff;
+    background-color: #000;
     color: #3498db;
     padding: .5rem 1rem;
     font-size: .9rem;
@@ -105,7 +106,7 @@ main {
 
 .dropdown-link:hover > a{
     background-color: #3498db;
-    color: #fff;
+    color: #000;
 }
 
 .dropdown-link:not(:nth-last-child(2)){
@@ -122,7 +123,7 @@ main {
     height: 11px;
     top: -5.5px;
     left: 32px;
-    background-color: #fff;
+    background-color: #000;
     transform: rotate(45deg);
     cursor: pointer;
     transition: .3s;
