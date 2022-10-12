@@ -44,13 +44,10 @@ main {
 	margin-top: 10px;
 }
 
-
-
-
-a {
-    style: underline;
-	color: #50a9d6
+.box1 ul {
+  list-style-type: none;
 }
+
 
 .in{
 	padding-left:80px;
