@@ -34,10 +34,6 @@ main {
 	
 }
 
-.lang {
-	float: right;
-	color: #6D8B74;
-}
 
 .box1 {
 	float: left;
@@ -49,12 +45,11 @@ main {
 }
 
 
-ul{
-    list-style: none;
-}
 
-a{
-    text-decoration: none;
+
+a {
+    style: underline;
+	color: #50a9d6
 }
 
 .in{
@@ -490,6 +485,10 @@ aside a {
 	color: #50a9d6;
 }
 
+aside a:hover {
+	style:underline;
+	color: black;
+}
 
 h2 {
 	padding: 0px 0px 5px 20px;
@@ -500,7 +499,8 @@ h2 {
 }
 
 big {
-	font-size: 30px;
+	font-size: 20px;
+	border-bottom: 1px dashed #557571;
 }
 
 
