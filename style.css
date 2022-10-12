@@ -487,7 +487,7 @@ aside p {
 
 aside a {
 	style:underline;
-	color: black;
+	color: #50a9d6;
 }
 
 
@@ -499,6 +499,9 @@ h2 {
 	font-size:30px;
 }
 
+big {
+	font-size: 30px;
+}
 
 
 /* media */
